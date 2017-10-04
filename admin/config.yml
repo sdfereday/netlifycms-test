@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/sdfereday/netlifycms-test # Path to your Github repository
+  repo: sdfereday/netlifycms-test # Path to your Github repository
   branch: master # Branch to update
 
 publish_mode: editorial_workflow
