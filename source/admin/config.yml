@@ -1,11 +1,12 @@
+# If using hexo: hexo generate; cp source/admin/config.yml public/admin/config.yml; rm public/admin/config.json
 backend:
   name: github
   repo: sdfereday/netlifycms-test # Path to your Github repository
   branch: master # Branch to update
 
 publish_mode: editorial_workflow
-media_folder: "images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
