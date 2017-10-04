@@ -20,8 +20,6 @@ collections:
         widget: list
         fields:
           - {name: body, label: Body, widget: markdown}
-
-collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     folder: "source/_posts" # The path to the folder where the documents are stored
