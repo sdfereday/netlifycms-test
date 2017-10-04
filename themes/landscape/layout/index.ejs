@@ -1,3 +1,6 @@
-<%- partial('article', {post: page, index: true}) %>
-
 <!-- <%- partial('_partial/archive', {pagination: 2, index: true}) %> -->
+<% site.pages.forEach(function(page, i){ %>
+    <% if(page.home) { %>
+        <%- partial('_partial/article', {post: page, index: true}) %>
+    <% } %>
+<% }) %>
