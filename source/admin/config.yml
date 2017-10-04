@@ -1,3 +1,5 @@
+# https://github.com/netlify/netlify-cms/issues/386
+# You cannot run this on netlify at this time, there may be a way but I'm not certain. In time will look in to.
 # If using hexo: hexo generate; cp source/admin/config.yml public/admin/config.yml; rm public/admin/config.json
 backend:
   name: github
