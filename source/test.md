@@ -2,6 +2,9 @@
 title: test
 section:
   - body: test
-  - body: ''
+  - body: |+
+      ![null](/images/uploads/minimalisticwalls.jpg)
+
 ---
+
 
