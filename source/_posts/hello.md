@@ -1,9 +1,0 @@
----
-title: Test Page
-section:
-  - body: This is a section with text
-  - body: |+
-      ![null](/images/uploads/minimalisticwalls.jpg)
-
-  - body: And this text goes below the image
----
